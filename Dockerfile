@@ -1,6 +1,6 @@
 FROM alpine:latest
 
 RUN apk --no-cache add \
-    salt-minion \    
+    salt-minion
 
 ENTRYPOINT ["salt-minion"]
